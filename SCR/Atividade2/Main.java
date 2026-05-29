@@ -1,7 +1,7 @@
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
 public class Main {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,5 +17,6 @@ public class Main {
         else{
             System.out.println(n2+" é maior que "+n);
         }
+        sc.close();
     }
 }

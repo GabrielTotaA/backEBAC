@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Main {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -26,5 +28,7 @@ public class Main {
         String estadoCivil = sc.nextLine();
 
         System.out.println("Bem vindo: "+nome+" | CPF: "+CPF+" | Idade: "+idade+" | Peso: "+peso+" | Altura: "+altura+" | Estado Civil: "+estadoCivil);
+
+        sc.close();
     }
 }

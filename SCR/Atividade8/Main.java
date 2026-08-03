@@ -1,5 +1,5 @@
-package Atividade8;
-import Atividade8.alunos.*;
+package atividade8;
+import atividade8.alunos.*;
 import java.util.Arrays;
 import java.util.Scanner;
 
